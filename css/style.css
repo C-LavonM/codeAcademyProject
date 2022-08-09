@@ -1,0 +1,67 @@
+a {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.nav-link {
+    color: lightgrey;
+    text-decoration: none; 
+}
+
+.nav-link:hover {
+    color: red;
+}
+.btn {
+    font-family: sans-serif, Georgia, 'Times New Roman';
+    background-color: azure;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: blueviolet;
+    background-color: whitesmoke;
+    font-size: 14px;
+    border: 2px;
+
+}
+
+.btn:active {
+    font-size: 18px;
+    transition: color .1s ease-in, background-color .1s ease-in;
+}
+
+.activity {
+    border: 1px solid gray;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.activity:hover {
+    color: gray;
+    font-size: 14px;
+    
+
+}
+
+.activity:active {
+    font-size: 18px;
+    transition: font-size .2s ease-out;
+}
+
+
+
+
+
+
+
